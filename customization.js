@@ -33,12 +33,12 @@ module.exports = {
 ┏━━━━❮📝 ᴅᴇᴛᴇʟᴇꜱ 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
-┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
+┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX} "."
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
 ┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
-┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME}
-┃🔊 𝙼𝚘𝚍𝚎 : ${config.MODE}
+┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME} "Raju"
+┃🔊 𝙼𝚘𝚍𝚎 : ${config.MODE} "private"
 ┃🍁 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
@@ -98,11 +98,11 @@ Twitter URL: ${q}
 ┏━━━━❮📝 𝗦𝘁𝗮𝘁𝘂𝘀 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
-┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
+┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX} "."
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${hostname}
 ┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
-┃⚙️ 𝙼𝚘𝚍𝚎 : ${config.MODE}
+┃⚙️ 𝙼𝚘𝚍𝚎 : ${config.MODE} "private"
 ┃💻 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
